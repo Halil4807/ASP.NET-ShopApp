@@ -1,10 +1,5 @@
-
-<div class="row">
-    <div class="col-md-3">
-        @* Kategoriler Gelecek *@
-        @await Component.InvokeAsync("Categories")
-    </div>
-    <div class="col-md-9">
-        Hakkında
-    </div>
-</div>
+@section Categories
+{
+    @await Component.InvokeAsync("Categories")
+}
+    Hakkında
