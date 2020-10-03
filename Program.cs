@@ -22,5 +22,6 @@ namespace shopapp.webui
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+                
     }
 }

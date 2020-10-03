@@ -14454,13 +14454,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\_header.cshtml",
       "TargetPath": "Views\\Shared\\_header.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\ViewComponents\\Categories\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\ViewComponents\\Categories\\Default.cshtml",
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\_ViewStart.cshtml",
+      "TargetPath": "_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Categories\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

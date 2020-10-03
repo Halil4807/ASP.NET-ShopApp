@@ -42,3 +42,5 @@ D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shar
 D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_product.cshtml.g.cs
 D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_categories.cshtml.g.cs
 D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Categories\Default.cshtml.g.cs
+D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Uygulamalarım\shopapp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\_ViewStart.cshtml.g.cs
