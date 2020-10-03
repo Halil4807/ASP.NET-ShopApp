@@ -3,7 +3,6 @@
 @{
 var popularClass = Model.Products.Count>2? "popular":"";
 var products=Model.Products;
-var categoryName=Model.Category.Name;
 }
 
 <!DOCTYPE html>
@@ -32,38 +31,31 @@ var categoryName=Model.Category.Name;
         <div class="container">
             
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     @* Kategoriler Gelecek *@
+                    @await Component.InvokeAsync("Categories")
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     @* Ürünler Gelecek *@
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="@popularClass">@categoryName</h1>
-                    
-                </div>
-            </div>
-            
-            @if(products.Count==0)
-            {
-                @await Html.PartialAsync("_noproduct")
-            }
-            else
-            {
-                <div class="row">
-
-                    @foreach (var product in products)
+                    @if(products.Count==0)
                     {
-                        <div class="col-md-3">
-                            @await Html.PartialAsync("_product",product)
+                        @await Html.PartialAsync("_noproduct")
+                    }
+                    else
+                    {
+                        <div class="row">
+
+                            @foreach (var product in products)
+                            {
+                                <div class="col-md-3">
+                                    @await Html.PartialAsync("_product",product)
+                                </div>
+                            }
+
                         </div>
                     }
-
                 </div>
-            }
+            </div>
         </div>
     </main>
     @* <div>

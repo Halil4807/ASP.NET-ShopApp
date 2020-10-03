@@ -12422,6 +12422,23 @@
         }
       },
       {
+        "HashCode": 1578157934,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoriesViewComponentTagHelper",
+        "AssemblyName": "shopapp.webui",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:categories"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoriesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Categories"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14392,6 +14409,11 @@
   "RootNamespace": "shopapp.webui",
   "Documents": [
     {
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\_categories.cshtml",
+      "TargetPath": "Views\\Shared\\_categories.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14434,6 +14456,11 @@
     {
       "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\_header.cshtml",
       "TargetPath": "Views\\Shared\\_header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Shared\\ViewComponents\\Categories\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\ViewComponents\\Categories\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

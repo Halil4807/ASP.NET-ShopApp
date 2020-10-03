@@ -28,11 +28,9 @@ namespace shopapp.webui.Controllers
                 new Product{Name="Iphone X",Price=9000,Description="Çok iyi telefon",IsApproved=true},
                 new Product{Name="Iphone 11",Price=10000,Description="Güzel telefon"}
             };
-            var category = new Category { Name = "Telefonlar", Description = "Telefon Kategorisi" };
 
             var productViewModel = new ProductViewModel()
             {
-                Category = category,
                 Products = products
             };
 
