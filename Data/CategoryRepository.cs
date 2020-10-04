@@ -10,8 +10,8 @@ namespace shopapp.webui.Data
         {
             _categories = new List<Category>
             {
-                new Category {CategoryId=1, Name = "Bilgisayar", Description = "Bilgisayar Kategorisi" },
-                new Category {CategoryId=2, Name = "Telefonlar", Description = "Telefon Kategorisi" },
+                new Category {CategoryId=1, Name = "Telefon", Description = "Bilgisayar Kategorisi" },
+                new Category {CategoryId=2, Name = "Bilgisayar", Description = "Telefon Kategorisi" },
                 new Category {CategoryId=3, Name = "Elektronik", Description = "Elektronik Kategorisi" }
             };
         }
