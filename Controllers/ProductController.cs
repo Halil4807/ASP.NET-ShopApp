@@ -23,6 +23,10 @@ namespace shopapp.webui.Controllers
         // localhost:5000/product/list
         public IActionResult List(int? id)
         {
+            //{controller}/{action}/{id?}
+            //product/list/3
+
+
             var products = ProductRepository.Products;
 
             if (id != null)
