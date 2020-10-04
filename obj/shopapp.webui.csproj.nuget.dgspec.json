@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {}
+    "D:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {}
   },
   "projects": {
-    "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {
+    "D:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectUniqueName": "D:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
         "projectName": "shopapp.webui",
-        "projectPath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectPath": "D:\\Uygulamalarım\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
         "packagesPath": "C:\\Users\\Halil4807\\.nuget\\packages\\",
-        "outputPath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\obj\\",
+        "outputPath": "D:\\Uygulamalarım\\shopapp\\shopapp.webui\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Halil4807\\AppData\\Roaming\\NuGet\\NuGet.Config"
