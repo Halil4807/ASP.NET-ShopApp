@@ -21,10 +21,22 @@ namespace shopapp.webui.Controllers
             return View(product);
         }
         // localhost:5000/product/list
-        public IActionResult List(int? id)
+        public IActionResult List(int? id, string q, double? min_price, double? max_price)
         {
-            //{controller}/{action}/{id?}
-            //product/list/3
+            // {controller}/{action}/{id?}
+            // product/list/3
+            // RouteData.Values["controller"] => product
+            // RouteData.Values["action"] => list
+            // RouteData.Values["id"] => 3
+
+            // Console.WriteLine(RouteData.Values["controller"]);
+            // Console.WriteLine(RouteData.Values["action"]);
+            // Console.WriteLine(RouteData.Values["id"]);
+
+            // QueryString
+            // Console.WriteLine(q);
+            // Console.WriteLine(HttpContext.Request.Query["q"].ToString());
+            // Console.WriteLine(HttpContext.Request.Query["min_price"].ToString());
 
 
             var products = ProductRepository.Products;
@@ -32,6 +44,11 @@ namespace shopapp.webui.Controllers
             if (id != null)
             {
                 products = products.Where(p => p.CategoryId == id).ToList();
+            }
+
+            if (!string.IsNullOrEmpty(q))
+            {
+                products = products.Where(i => i.Name.ToLower().Contains(q.ToLower()) || i.Description.Contains(q)).ToList();
             }
 
             var productViewModel = new ProductViewModel()
@@ -46,6 +63,11 @@ namespace shopapp.webui.Controllers
         public IActionResult Details(int id)
         {
             return View(ProductRepository.GetProductById(id));
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }

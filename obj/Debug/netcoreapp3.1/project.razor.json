@@ -14414,6 +14414,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Views\\Product\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Uygulamalarım\\shopapp\\shopapp.webui\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
