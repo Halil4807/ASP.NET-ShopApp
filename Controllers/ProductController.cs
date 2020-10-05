@@ -60,14 +60,24 @@ namespace shopapp.webui.Controllers
         }
 
         // localhost:5000/product/details
+        [HttpGet]
         public IActionResult Details(int id)
         {
             return View(ProductRepository.GetProductById(id));
         }
 
-        public IActionResult Create(string name, double price)
+        [HttpGet]//Yazılmasa bile varsayılan olarak algılanıyor
+        public IActionResult Create()
         {
             return View();
+        }
+
+        //public IActionResult Create(string name, double price, string Description, string ImageUrl, int CategoryId)
+        [HttpPost]
+        public IActionResult Create(Product p)
+        {
+            ProductRepository.AddProduct(p);
+            return RedirectToAction("list");
         }
     }
 }
